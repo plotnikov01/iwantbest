@@ -1,0 +1,105 @@
+.info {
+    width: 1280px;
+    max-width: 100%;
+    overflow: hidden;
+
+    // @media screen and (max-width: 400px) {
+    //     width: 100%;
+    //     overflow: visible;
+    // }
+
+    &__topic {
+        font-family: Gilroy;
+        font-size: 2.4rem;
+        font-weight: 600;
+        line-height: 2.9rem;
+        letter-spacing: 0em;
+        text-align: left;
+        padding: 6rem 0 3rem;
+    }
+
+    &__wrapper {
+        width: 303.3rem;
+        height: 53rem;
+        overflow: hidden;
+        transition: all .3s ease-out;
+
+        // @media screen and (max-width: 400px) {
+        //     flex-direction: column;
+        //     overflow: visible;
+        //     height: auto;
+        //     width: 100%;
+        //     max-width: 100%;
+        // }
+    }
+
+    &__item {
+        background-color: $item-background-color;
+        width: 41.3rem;
+        height: 53rem;
+        display: inline-block;
+        margin-right: 2rem;
+
+        // @media screen and (max-width: 400px) {
+        //     margin: 2rem auto;
+        //     display: block;
+        // }
+
+        // @media screen and (max-width: 350px) {
+        //     width: 35rem;
+        //     height: 45rem;
+        // }
+
+            &--image {
+                max-width: 100%;
+            }
+
+            &--name {
+                font-family: Gilroy;
+                font-size: 2.2rem;
+                font-weight: 800;
+                line-height: 2.7rem;
+                letter-spacing: 0em;
+                text-align: left;
+                width: 85%;
+                margin: 2.3rem auto;
+
+                @media screen and (max-width: 400px) {
+                    width: 90%;
+                }
+            }
+    
+            &--description {
+                font-family: Gilroy;
+                font-size: 1.6rem;
+                font-weight: 300;
+                line-height: 1.9rem;
+                letter-spacing: 0em;
+                text-align: left;
+                width: 85%;
+                margin: 1.6rem auto;
+                @media screen and (max-width: 400px) {
+                    width: 90%;
+                }
+            }
+            &--link {
+                font-family: Gilroy;
+                font-size: 1.4rem;
+                font-weight: 600;
+                line-height: 1.7rem;
+                letter-spacing: 0em;
+                text-align: left;
+                color: $primary-green;
+                width: 85%;
+                margin: 1rem auto;
+                @media screen and (max-width: 400px) {
+                    width: 90%;
+                    max-width: 90%;
+                }
+            }
+        }
+    
+
+    }
+
+

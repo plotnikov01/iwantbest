@@ -1,0 +1,35 @@
+.loadmore {
+
+    &__container {
+        background-color: $item-background-color;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    &__icon {
+        margin: 8rem auto;
+        height: 15rem;
+        width: 15rem;
+
+        @media screen and (max-width: 384px) {
+            margin: 7rem auto;
+            height: 13rem;
+            width: 13rem;
+        }
+    }
+
+    &__text {
+        position: absolute;
+        left:50%;
+        transform: translate(-50%, -50%);
+        bottom: 4rem;
+        font-family: Gilroy;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 2.4rem;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #A7A7A7;
+    }
+}
